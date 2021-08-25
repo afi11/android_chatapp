@@ -18,6 +18,7 @@ For API you can find at [https://github.com/afi11/api_chat_lumen_android](https:
 - Search another user
 - Chatroom
 - Input message with text and photo
+- Notification new message
 - Online status another user
 - User Profil
 
