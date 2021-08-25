@@ -40,6 +40,7 @@ import kotlinx.android.synthetic.main.activity_chat_log.*
 import kotlinx.android.synthetic.main.toolbar_layout.*
 import org.json.JSONException
 import org.json.JSONObject
+import kotlin.jvm.Throws
 
 
 class ChatLogActivity : AppCompatActivity() {

@@ -203,7 +203,7 @@ class MainActivity : AppCompatActivity() {
                                         override fun onSuccess(unreadmessage: String?) {
                                             val latestMessage = LatestMessage(
                                                     objectMessage.getString("id"), objectMessage.getString("name"),
-                                                     "http://192.168.43.140/profil/" + objectMessage.getString("photo"),message.toString(),
+                                                     "http://192.168.10.60/profil/" + objectMessage.getString("photo"),message.toString(),
                                                     objectMessage.getString("last_chat_at"), unreadmessage.toString()
                                             )
                                             adapter.add(UserLatestMessage(latestMessage))
@@ -225,7 +225,7 @@ class MainActivity : AppCompatActivity() {
                 },
                 object : Response.ErrorListener {
                     override fun onErrorResponse(error: VolleyError?) {
-                        Toast.makeText(applicationContext, error?.message, Toast.LENGTH_LONG).show()
+                        //Toast.makeText(applicationContext, error?.message.toString(), Toast.LENGTH_LONG).show()
                     }
                 }
         ){

@@ -1,7 +1,7 @@
 package codeafifudin.fatakhul.chatapp.endpoints
 
 object EndPoints {
-    private val URL_ROOT = "http://192.168.43.140/api/"
+    private val URL_ROOT = "http://192.168.10.60/api/"
     val URL_LOGIN = URL_ROOT+"login"
     val URL_REGISTER = URL_ROOT+"register"
     val URL_LET_PERSON_MESSAGE = URL_ROOT+"letmessage"
